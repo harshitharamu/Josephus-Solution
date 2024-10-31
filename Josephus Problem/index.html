@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josephus Problem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h1>The Josephus Problem</h1>
+            <p>Enter the number of people and step count to simulate the Josephus problem:</p>
+            <div class="input-group">
+                <label for="people">Number of People:</label>
+                <input type="number" id="people" value="7" min="1">
+            </div>
+            <div class="input-group">
+                <label for="step">Step Count:</label>
+                <input type="number" id="step" value="3" min="1">
+            </div>
+            <button id="start-btn">Start Simulation</button>
+            
+            <div id="result">
+                <!-- output -->
+            </div>
+        </div>
+
+        <div class="circle-section">
+            <div id="circle-container">
+                <!-- visualize -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
